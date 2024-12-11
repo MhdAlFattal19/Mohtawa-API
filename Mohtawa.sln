@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mohtawa API", "Mohtawa API\Mohtawa API.csproj", "{57084570-7064-4039-8BBE-A25E979F8504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mohtawa.Application", "Mohtawa.Application\Mohtawa.Application.csproj", "{FD3192F8-5948-422E-A77D-D26C22C7E9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mohtawa.Domain", "Mohtawa.Domain\Mohtawa.Domain.csproj", "{60FE4177-A273-45DC-BDAF-F0964F5F4876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mohtawa.Infrastructure", "Mohtawa.Infrastructure\Mohtawa.Infrastructure.csproj", "{A6718FDF-DF38-4C39-B995-FE772549216B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57084570-7064-4039-8BBE-A25E979F8504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57084570-7064-4039-8BBE-A25E979F8504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57084570-7064-4039-8BBE-A25E979F8504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57084570-7064-4039-8BBE-A25E979F8504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3192F8-5948-422E-A77D-D26C22C7E9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3192F8-5948-422E-A77D-D26C22C7E9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3192F8-5948-422E-A77D-D26C22C7E9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3192F8-5948-422E-A77D-D26C22C7E9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FE4177-A273-45DC-BDAF-F0964F5F4876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FE4177-A273-45DC-BDAF-F0964F5F4876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FE4177-A273-45DC-BDAF-F0964F5F4876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FE4177-A273-45DC-BDAF-F0964F5F4876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6718FDF-DF38-4C39-B995-FE772549216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6718FDF-DF38-4C39-B995-FE772549216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6718FDF-DF38-4C39-B995-FE772549216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6718FDF-DF38-4C39-B995-FE772549216B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
