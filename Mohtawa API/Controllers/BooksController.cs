@@ -1,8 +1,6 @@
-﻿using Azure;
-using Bonluck.Domain.Responses;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Mohtawa.Domain.Contracts;
-using Mohtawa.Domain.DTOs;
 using Mohtawa.Domain.Requests;
 using Mohtawa.Domain.Responses;
 
@@ -10,6 +8,7 @@ namespace Mohtawa_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BooksController : Controller
     {
         private readonly IBookService _bookService;
