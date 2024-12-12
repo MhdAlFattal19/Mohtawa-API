@@ -5,6 +5,7 @@ namespace Mohtawa.Domain.Requests
     public class LoginRequest
     {
         [Required]
+        [EmailAddress]
         [MinLength(5)]
         public string Email { get; set; }
 

@@ -18,19 +18,9 @@ namespace Mohtawa_API.Extensions
             builder.Services.AddSingleton(jwtTokenConfig);
 
             builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-                    .AddEntityFrameworkStores<LibraryIdentityContext>()
-                    .AddRoles<IdentityRole>()
-                    .AddDefaultTokenProviders();
-
-            builder.Services.Configure<IdentityOptions>(options =>
-            {
-                options.Password.RequireDigit = false;
-                options.Password.RequireLowercase = false;
-                options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequiredLength = 4;
-                options.Password.RequiredUniqueChars = 0;
-            });
+                            .AddEntityFrameworkStores<LibraryIdentityContext>()
+                            .AddRoles<IdentityRole>()
+                            .AddDefaultTokenProviders();
 
 
             builder.Services.AddAuthentication(options =>

@@ -48,6 +48,8 @@ app.UseHttpsRedirection();
 
 
 app.UseAuthorization();
+app.UseAuthentication();
+
 
 app.UseMiddleware<InterceptorMiddleware>();
 app.MapControllers();

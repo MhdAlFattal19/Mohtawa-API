@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Mohtawa.Domain.Contracts;
 using Mohtawa.Domain.Requests;
@@ -6,9 +7,9 @@ using Mohtawa.Domain.Responses;
 
 namespace Mohtawa_API.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class BooksController : Controller
     {
         private readonly IBookService _bookService;
